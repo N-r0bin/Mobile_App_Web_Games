@@ -20,15 +20,6 @@ class _InAppGamePageState extends State<InAppGamePage> {
 
   late List<GamesData> dataList;
 
-
-
-  @override
-  void initState() {
-    super.initState();
-
-    this.dataList = List.of(allGames);
-  }
-
   @override
   Widget build(BuildContext context) {
     dataList = allGames.toList();
@@ -40,7 +31,7 @@ class _InAppGamePageState extends State<InAppGamePage> {
         centerTitle: true,
         title: Text(
           widget.title!,
-          style: TextStyle(color: Colors.black),
+          style: const TextStyle(color: Colors.black),
         ),
       ),
       body: Stack(
@@ -62,9 +53,9 @@ class _InAppGamePageState extends State<InAppGamePage> {
             height: 3,
             child: LinearProgressIndicator(
               value: _progress,
-              backgroundColor: Theme.of(context).accentColor.withOpacity(0.2),
+              backgroundColor: Theme.of(context).colorScheme.secondary.withOpacity(0.2),
             ),
-          ) : SizedBox(),
+          ) : const SizedBox(),
         ],
       ),
     );

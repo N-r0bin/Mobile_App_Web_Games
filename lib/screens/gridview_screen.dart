@@ -4,21 +4,14 @@ import 'package:web_games/model/web_games_data.dart';
 import 'package:web_games/screens/in_app_game_page.dart';
 
 class GridViewScreen extends StatefulWidget {
+  const GridViewScreen({Key? key}) : super(key: key);
+
   @override
   State<GridViewScreen> createState() => _GridViewScreenState();
 }
 
 class _GridViewScreenState extends State<GridViewScreen> {
   late List<GamesData> dataList;
-
-  @override
-  void initState() {
-    super.initState();
-
-    this.dataList = List.of(allGames);
-  }
-
-
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +21,7 @@ class _GridViewScreenState extends State<GridViewScreen> {
       backgroundColor: Colors.black,
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Web Games'),
+        title: const Text('Web Games'),
       ),
       body: GridView.builder(
         padding: const EdgeInsets.all(8),
