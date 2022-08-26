@@ -3,109 +3,82 @@ import 'package:web_games/model/web_games_data.dart';
 List<Map<String, dynamic>> games_data = [
   {
     "id": 1,
-    "name": "Om Nom Run",
-    "url": "https://play.famobi.com/om-nom-run"
-  },
-  {
-    "id": 2,
-    "name": "Garden Bloom",
-    "url": "https://play.famobi.com/garden-bloom"
-  },
-  {
-    "id": 3,
-    "name": "Bubble Tower 3D",
-    "url": "https://play.famobi.com/bubble-tower-3d"
-  },
-  {
-    "id": 4,
-    "name": "Tower Crash 3D",
-    "url": "https://play.famobi.com/tower-crash-3d"
-  },
-  {
-    "id": 5,
-    "name": "Element Blocks",
-    "url": "https://play.famobi.com/element-blocks"
-  },
-  {
-    "id": 6,
-    "name": "Zoo Boom",
-    "url": "https://play.famobi.com/zoo-boom"
-  },
-  {
-    "id": 7,
-    "name": "Bubble Woods",
-    "url": "https://play.famobi.com/bubble-woods"
-  },
-  {
-    "id": 8,
-    "name": "Archery World Tour",
-    "url": "https://play.famobi.com/archery-world-tour"
-  },
-  {
-    "id": 9,
-    "name": "Solitaire Klondike",
-    "url": "https://play.famobi.com/solitaire-klondike"
-  },
-  {
-    "id": 10,
-    "name": "Table Tennis World Tour",
-    "url": "https://play.famobi.com/table-tennis-world-tour"
-  },
-  {
-    "id": 11,
     "name": "React Wordle",
     "url": "https://reactle.vercel.app/"
   },
   {
-    "id": 12,
-    "name": "2048 Game",
-    "url": "https://play2048.co/"
+    "id": 2,
+    "name": "BreakLock",
+    "url": "https://maxwellito.github.io/breaklock/"
   },
   {
-    "id": 13,
+    "id": 3,
     "name": "Clumsy Bird",
     "url": "https://ellisonleao.github.io/clumsy-bird/"
   },
   {
-    "id": 14,
+    "id": 4,
     "name": "Pacman in HTML5 Canvas",
     "url": "https://pacman.platzh1rsch.ch/"
   },
   {
-    "id": 15,
-    "name": "Astray",
-    "url": "https://wwwtyro.github.io/Astray/"
+    "id": 5,
+    "name": "React Simon Says",
+    "url": "https://weslleyaraujo.github.io/react-simon-says/"
   },
   {
-    "id": 16,
-    "name": "Canvas Tetris",
-    "url": "https://dionyziz.com/graphics/canvas-tetris/"
+    "id": 6,
+    "name": "The original TETRIS game simulator",
+    "url": "https://ytiurin.github.io/tetris/"
   },
   {
-    "id": 17,
+    "id": 7,
     "name": "Tic Tac Toe",
     "url": "https://codepen.io/iamrubberducky/full/XjLGKv"
   },
   {
-    "id": 18,
+    "id": 8,
     "name": "0hh1",
     "url": "https://0hh1.com/"
   },
   {
-    "id": 19,
-    "name": "Javascript Pseudo 3D Racer",
-    "url": "https://codeincomplete.com/games/racer/"
+    "id": 9,
+    "name": "React-2048-game",
+    "url": "https://re2048.herokuapp.com/"
   },
   {
-    "id": 20,
-    "name": "mk.js",
-    "url": "https://mk.mgechev.com/"
+    "id": 10,
+    "name": "Ancient Beast",
+    "url": "https://ancientbeast.com/"
   },
   {
-    "id": 21,
+    "id": 11,
     "name": "Freeciv Web",
     "url": "https://www.fciv.net/"
   },
+  {
+    "id": 12,
+    "name": "Emohi-minesweeper",
+    "url": "https://muan.github.io/emoji-minesweeper/"
+  },
+  {
+    "id": 13,
+    "name": "Tower Building Game",
+    "url": "https://iamkun.github.io/tower_game/"
+  },
+  {
+    "id": 14,
+    "name": "Duck Hunt Js",
+    "url": "https://duckhuntjs.com/"
+  },
+  /*
+  // contain ads
+  {
+    "id": 15,
+    "name": "2048 Game",
+    "url": "https://play2048.co/"
+  },
+   */
 ];
 
 final List<GamesData> allGames = games_data.map((e) => GamesData.fromJson(e)).toList();

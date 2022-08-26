@@ -37,6 +37,7 @@ class _InAppGamePageState extends State<InAppGamePage> {
       body: Stack(
         children: [
           InAppWebView(
+            initialOptions: InAppWebViewGroupOptions(),
               initialUrlRequest: URLRequest(
                   url: Uri.parse(widget.url!,)
               ),
