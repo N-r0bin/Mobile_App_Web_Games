@@ -22,6 +22,38 @@ List<Map<String, dynamic>> games_data = [
     "url": "https://pacman.platzh1rsch.ch/"
   },
   {
+    "id": 8,
+    "name": "0hh1",
+    "url": "https://0hh1.com/"
+  },
+  {
+    "id": 9,
+    "name": "React-2048-game",
+    "url": "https://re2048.herokuapp.com/"
+  },
+  {
+    "id": 11,
+    "name": "Emohi-minesweeper",
+    "url": "https://muan.github.io/emoji-minesweeper/"
+  },
+  {
+    "id": 12,
+    "name": "Tower Building Game",
+    "url": "https://iamkun.github.io/tower_game/"
+  },
+  /*
+  // contain ads
+  {
+    "id": 14,
+    "name": "2048 Game",
+    "url": "https://play2048.co/"
+  },
+  {
+    "id": 15,
+    "name": "Freeciv Web",
+    "url": "https://www.fciv.net/"
+  },
+  {
     "id": 5,
     "name": "React Simon Says",
     "url": "https://weslleyaraujo.github.io/react-simon-says/"
@@ -37,46 +69,14 @@ List<Map<String, dynamic>> games_data = [
     "url": "https://codepen.io/iamrubberducky/full/XjLGKv"
   },
   {
-    "id": 8,
-    "name": "0hh1",
-    "url": "https://0hh1.com/"
-  },
-  {
-    "id": 9,
-    "name": "React-2048-game",
-    "url": "https://re2048.herokuapp.com/"
-  },
-  {
     "id": 10,
     "name": "Ancient Beast",
     "url": "https://ancientbeast.com/"
   },
   {
-    "id": 11,
-    "name": "Emohi-minesweeper",
-    "url": "https://muan.github.io/emoji-minesweeper/"
-  },
-  {
-    "id": 12,
-    "name": "Tower Building Game",
-    "url": "https://iamkun.github.io/tower_game/"
-  },
-  {
     "id": 13,
     "name": "Duck Hunt Js",
     "url": "https://duckhuntjs.com/"
-  },
-  /*
-  // contain ads
-  {
-    "id": 14,
-    "name": "2048 Game",
-    "url": "https://play2048.co/"
-  },
-  {
-    "id": 15,
-    "name": "Freeciv Web",
-    "url": "https://www.fciv.net/"
   },
    */
 ];
