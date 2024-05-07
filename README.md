@@ -1,6 +1,5 @@
 # web_games
 
-A new Flutter project.
 Mobile Application that views Web games.
 
 <p float="center">
